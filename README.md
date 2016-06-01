@@ -1,2 +1,2 @@
-# express-dust
+# Express & Dust
 Express project using Dust template
