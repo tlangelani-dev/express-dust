@@ -1,0 +1,11 @@
+{>"master"/}
+{<content}
+
+<div class="content home">
+    <h1>Spree Template Project</h1>
+    <p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut a quos dolores unde minus explicabo? Assumenda reprehenderit fugiat itaque suscipit quasi, est laudantium explicabo dolorem, consectetur alias cum odit ut.
+    </p>
+</div>
+
+{/content}
