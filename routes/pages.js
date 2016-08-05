@@ -6,6 +6,10 @@ var data = {
     languages: ['HTML', 'CSS', 'jQuery', 'NodeJs', 'PHP']
 };
 
+router.get('/', function(req, res, next) {
+    res.redirect('/home');
+});
+
 router.get('/home', function(req, res, next) {
     res.render('page/home', data);
 });

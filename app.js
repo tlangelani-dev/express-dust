@@ -4,7 +4,8 @@ var consolidate = require('consolidate');
 var dust = require('dustjs-helpers');
 var port = 3001;
 
-var routes = require('./routes/home');
+var pages = require('./routes/pages');
+var apis = require('./routes/api');
 
 var app = express();
 
@@ -15,7 +16,8 @@ app.engine('dust', consolidate.dust);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
-app.use('/', routes);
+app.use('/', pages);
+app.use('/', apis);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
