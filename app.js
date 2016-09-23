@@ -2,7 +2,8 @@ var path = require('path');
 var express = require('express');
 var consolidate = require('consolidate');
 var dust = require('dustjs-helpers');
-var port = 3001;
+require(path.join(__dirname, 'libs/helpers'))();
+var port = 3005;
 
 var app = express();
 

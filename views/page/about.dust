@@ -1,0 +1,16 @@
+{>"master"/}
+{<content}
+
+<div class="content about">
+    
+    <h1 class="text-center">Dustjs</h1>
+    
+    <ul>
+        {#menus}<li>{.}</li>{/menus}
+    </ul>
+
+    <p>Total: {totals.sub} {totals.shipping}</p>
+
+</div>
+
+{/content}
