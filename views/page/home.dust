@@ -8,6 +8,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut a quos dolores unde minus explicabo? Assumenda reprehenderit fugiat itaque suscipit quasi, est laudantium explicabo dolorem, consectetur alias cum odit ut.
     </p>
     {@ne key=totals.save value=0}
+        <p>{sale}</p>
         <p>You have saved {totals.save}</p>
     {/ne}
     <ul>
