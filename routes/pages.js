@@ -6,7 +6,8 @@ var data = {
     languages: ['HTML', 'CSS', 'jQuery', 'NodeJs', 'PHP'],
     totals: {
         sub: 400,
-        shipping: 50
+        shipping: 50,
+        save: null
     },
     menus: [
         'Men',

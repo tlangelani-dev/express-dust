@@ -26,4 +26,8 @@ module.exports = () => {
             return prefix + value.toFixed(2);
         }
     };
+
+    dust.filters.pretty = function(value) {
+        return JSON.stringify(value, false, 2);
+    };
 };
