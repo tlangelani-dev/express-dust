@@ -15,6 +15,7 @@
     "dustjs-helpers": "^1.7.3",
     "dustjs-linkedin": "^2.7.2",
     "express": "^4.13.4",
-    "i18n": "^0.8.3"
+    "i18n": "^0.8.3",
+    "nodemon": "^1.11.0"
   }
 }
